@@ -1,0 +1,39 @@
+{
+  "name": "windsurf-search-mcp",
+  "version": "0.1.0",
+  "description": "MCP server + CLI for Windsurf/Devin server-side web search (GetWebSearchResults)",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "windsurf-search": "./bin/windsurf-search.mjs",
+    "windsurf-search-mcp": "./bin/windsurf-search-mcp.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.mjs",
+    "test:live": "RUN_LIVE_SEARCH=1 node --test test/*.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "windsurf",
+    "devin",
+    "web-search",
+    "cli",
+    "model-context-protocol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiale18219-dotcom/windsurf-search-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jiale18219-dotcom/windsurf-search-mcp/issues"
+  },
+  "homepage": "https://github.com/jiale18219-dotcom/windsurf-search-mcp#readme"
+}
