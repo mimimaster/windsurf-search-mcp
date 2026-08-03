@@ -8,8 +8,8 @@
     "node": ">=20"
   },
   "bin": {
-    "windsurf-search": "./bin/windsurf-search.mjs",
-    "windsurf-search-mcp": "./bin/windsurf-search-mcp.mjs"
+    "windsurf-search": "./bin/windsurf-search",
+    "windsurf-search-mcp": "./bin/windsurf-search-mcp"
   },
   "files": [
     "bin",
@@ -35,5 +35,6 @@
   "bugs": {
     "url": "https://github.com/jiale18219-dotcom/windsurf-search-mcp/issues"
   },
-  "homepage": "https://github.com/jiale18219-dotcom/windsurf-search-mcp#readme"
+  "homepage": "https://github.com/jiale18219-dotcom/windsurf-search-mcp#readme",
+  "main": "./bin/windsurf-search-mcp.mjs"
 }
