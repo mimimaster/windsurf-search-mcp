@@ -14,7 +14,7 @@ Zero runtime dependencies. Node.js `>= 20`.
 ```bash
 npm i -g windsurf-search-mcp
 # or without install:
-npx -y windsurf-search-mcp --help
+npx -y -p windsurf-search-mcp windsurf-search --help
 ```
 
 ## Auth (no secrets in config files)

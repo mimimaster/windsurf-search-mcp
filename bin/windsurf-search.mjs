@@ -481,7 +481,7 @@ async function promptLine(promptText, { password = false } = {}) {
   }
 }
 
-async function main(argv = process.argv.slice(2)) {
+export async function main(argv = process.argv.slice(2)) {
   const { positionals, flags } = parseArgs(argv);
 
   if (flags.login) {

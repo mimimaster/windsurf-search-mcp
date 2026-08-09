@@ -1,2 +1,7 @@
 #!/usr/bin/env node
-import './windsurf-search.mjs';
+// npm bin wrapper: run the CLI main() explicitly.
+// (The isDirectExecution() gate inside windsurf-search.mjs compares argv[1]
+// against import.meta.url, so importing through this wrapper would otherwise
+// skip main() entirely and exit silently.)
+import { main } from './windsurf-search.mjs';
+process.exitCode = await main(process.argv.slice(2));
